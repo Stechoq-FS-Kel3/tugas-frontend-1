@@ -1,0 +1,10 @@
+<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vaadin:stock" clip-path="url(#clip0_2700_190)">
+<path id="Vector" d="M15 7.99982V0.499817H5V7.99982H0V16.7498H20V7.99982H15ZM8.75 15.4998H1.25V9.24982H3.75V10.4998H6.25V9.24982H8.75V15.4998ZM6.25 7.99982V1.74982H8.75V2.99982H11.25V1.74982H13.75V7.99982H6.25ZM18.75 15.4998H11.25V9.24982H13.75V10.4998H16.25V9.24982H18.75V15.4998ZM0 20.4998H3.75V19.2498H16.25V20.4998H20V17.9998H0V20.4998Z" fill="#71839B"/>
+</g>
+<defs>
+<clipPath id="clip0_2700_190">
+<rect width="20" height="20" fill="white" transform="translate(0 0.499817)"/>
+</clipPath>
+</defs>
+</svg>
