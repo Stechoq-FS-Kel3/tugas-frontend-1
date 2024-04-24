@@ -1,6 +1,6 @@
 {
   "name": "fuwa-ms-dashboard",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,8 +12,6 @@
   },
   "dependencies": {
     "axios": "^1.6.8",
-    "pinia": "^2.1.7",
-    "qrcode.vue": "^3.4.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
@@ -28,7 +26,7 @@
     "eslint-plugin-vue": "^9.17.0",
     "postcss": "^8.4.38",
     "prettier": "^3.0.3",
-    "tailwindcss": "^3.4.3",
+    "tailwindcss": "^3.4.1",
     "vite": "^5.1.6"
   }
 }
