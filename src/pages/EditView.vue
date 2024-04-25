@@ -16,21 +16,24 @@ import {
     </RouterLink>
   </nav>
   <div class="items-center text-center">
-    <button class="text-secondary mb-4">
-      <FontAwesomeIcon :icon="faCirclePlus" /> Add new task
-    </button>
     <div>
+      <h1 class="text-x1 font-medium font-bold">Edit</h1>
       <div class="flex justify-center items-center space-x-3">
-        <button class="text-slate-600 text-2xl">
-          <FontAwesomeIcon :icon="faTrash" />
+        <input
+          type="text"
+          class="border border-gray-300 rounded px-2 py-1 mr-2 w-1/2"
+        />
+        <button
+          class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+        >
+          sumbit
         </button>
-        <RouterLink class="text-secondary font-medium" :to="{ name: 'edit' }">
-          <button class="text-slate-600 text-2xl">
-            <FontAwesomeIcon :icon="faPenToSquare" />
-          </button>
-        </RouterLink>
-        <input type="checkbox" checked="checked" class="checkbox" />
-        <span class="font-medium">Moring Walk</span>
+
+        <button
+          class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+        >
+          cancel
+        </button>
       </div>
     </div>
   </div>
