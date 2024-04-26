@@ -16,11 +16,6 @@ const router = createRouter({
       name: "index",
       component: Index,
     },
-    {
-      path: "/edit",
-      name: "edit",
-      component: EditView,
-    },
   ],
 });
 
