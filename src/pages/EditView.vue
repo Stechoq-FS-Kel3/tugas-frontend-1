@@ -31,11 +31,13 @@ import {
         >
           Save
         </button>
-        <button
-          class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
-        >
-          Cancel
-        </button>
+        <RouterLink class="text-secondary font-medium" :to="{ name: 'home' }">
+          <button
+            class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Cancel
+          </button>
+        </RouterLink>
       </div>
     </div>
   </div>

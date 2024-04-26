@@ -40,11 +40,7 @@ function removeTask(taskId) {
         <button class="text-slate-600 text-2xl" @click="removeTask(task.id)">
           <FontAwesomeIcon :icon="faTrash" />
         </button>
-        <RouterLink
-          class="text-secondary font-medium"
-          @click="editTask(task.id)"
-          :to="{ name: 'edit', params: { taskId: task.id } }"
-        >
+        <RouterLink class="text-secondary font-medium" :to="{ name: 'edit' }">
           <button class="text-slate-600 text-2xl">
             <FontAwesomeIcon :icon="faPenToSquare" />
           </button>
