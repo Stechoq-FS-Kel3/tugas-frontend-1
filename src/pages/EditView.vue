@@ -1,4 +1,6 @@
 <script setup>
+import { ref } from "vue";
+// Import Font Awesome icons
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
   faCirclePlus,
@@ -21,18 +23,18 @@ import {
       <div class="flex justify-center items-center space-x-3">
         <input
           type="text"
+          placeholder="Enter Edit"
           class="border border-gray-300 rounded px-2 py-1 mr-2 w-1/2"
         />
         <button
           class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
         >
-          sumbit
+          Save
         </button>
-
         <button
           class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
         >
-          cancel
+          Cancel
         </button>
       </div>
     </div>
